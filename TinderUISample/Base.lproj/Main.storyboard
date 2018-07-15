@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TinderUISample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAj-gr-47i" customClass="KolodaView" customModule="Koloda">
+                                <rect key="frame" x="51" y="168" width="273" height="330"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9d-KM-ick">
+                                <rect key="frame" x="51" y="552" width="50" height="46"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4di-gy-jlc"/>
+                                    <constraint firstAttribute="height" constant="46" id="Ylk-gJ-NLq"/>
+                                </constraints>
+                                <state key="normal" title="left">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cardGoToleft" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ad-qm-GpH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDc-On-Bff">
+                                <rect key="frame" x="274" y="552" width="50" height="46"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="YSb-PZ-kTf"/>
+                                    <constraint firstAttribute="width" constant="50" id="chU-BE-ExU"/>
+                                </constraints>
+                                <state key="normal" title="right">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cardGoToright" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eW-vr-x3B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BDc-On-Bff" firstAttribute="top" secondItem="NAj-gr-47i" secondAttribute="bottom" constant="54" id="HuQ-qy-69s"/>
+                            <constraint firstItem="NAj-gr-47i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="148" id="ICb-4P-esa"/>
+                            <constraint firstItem="NAj-gr-47i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="IgF-f9-HMk"/>
+                            <constraint firstItem="NAj-gr-47i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JdY-WW-yLI"/>
+                            <constraint firstItem="NAj-gr-47i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MiV-J3-bx2"/>
+                            <constraint firstItem="J9d-KM-ick" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="Vam-u7-Mrb"/>
+                            <constraint firstItem="J9d-KM-ick" firstAttribute="top" secondItem="NAj-gr-47i" secondAttribute="bottom" constant="54" id="VfP-k6-3cl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BDc-On-Bff" secondAttribute="trailing" constant="51" id="gyt-un-uv5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="kolodaView" destination="NAj-gr-47i" id="Vr1-tQ-xPi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
