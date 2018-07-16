@@ -16,11 +16,14 @@ import Koloda
 class ViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate {
     
     @IBOutlet weak var kolodaView: KolodaView!
+    var imageNameArray = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         kolodaView.dataSource = self
         kolodaView.delegate = self
+        //シャッフル
+        imageNameArray = shuffle(array: imageNameArray)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -31,7 +34,7 @@ class ViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate
 
     //枚数
     func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
-        return 10
+        return imageNameArray.count
     }
     
     //ドラッグのスピード
@@ -41,9 +44,15 @@ class ViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate
     
     //表示内容
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-        let view = UIView(frame: koloda.bounds)
-        view.backgroundColor = randomColor()
-        return view
+//        let view = UIView(frame: koloda.bounds)
+//        view.backgroundColor = randomColor()
+//        return view
+        let imageView = UIImageView(frame: koloda.bounds)
+        imageView.contentMode = .scaleAspectFit
+        imageView.image = UIImage(named: imageNameArray[index])
+        koloda.addSubview(imageView)
+        imageView.backgroundColor = randomColor()
+        return imageView
     }
     
     //カードの色を指定、今回はランダム
@@ -62,6 +71,8 @@ class ViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate
     // カードを全て消費したときの処理を定義する
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
         print("Finish cards.")
+        //シャッフル
+        imageNameArray = shuffle(array: imageNameArray)
         //リスタート
         koloda.resetCurrentCardIndex()
     }
@@ -87,6 +98,18 @@ class ViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate
     //dtagの方向など
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
         print(index, direction)
+    }
+    
+    //シャッフル
+    func shuffle(array: [String]) -> [String] {
+        var array = array
+        var shuffledArray: [String] = []
+        for _ in 0..<array.count {
+            let index = Int(arc4random_uniform(UInt32(array.count)))
+            shuffledArray.append(array[index])
+            array.remove(at: index)
+        }
+        return shuffledArray
     }
     
     

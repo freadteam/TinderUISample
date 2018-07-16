@@ -12,6 +12,17 @@
 		2CA228CE20FB3D3E00727431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA228CC20FB3D3E00727431 /* Main.storyboard */; };
 		2CA228D020FB3D3F00727431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA228CF20FB3D3F00727431 /* Assets.xcassets */; };
 		2CA228D320FB3D3F00727431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA228D120FB3D3F00727431 /* LaunchScreen.storyboard */; };
+		2CCDD42B20FCDF510027D71E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42020FCDF500027D71E /* 2.jpg */; };
+		2CCDD42C20FCDF510027D71E /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42120FCDF500027D71E /* 11.jpg */; };
+		2CCDD42D20FCDF510027D71E /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42220FCDF500027D71E /* 7.jpg */; };
+		2CCDD42E20FCDF510027D71E /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42320FCDF500027D71E /* 6.jpg */; };
+		2CCDD42F20FCDF510027D71E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42420FCDF500027D71E /* 4.jpg */; };
+		2CCDD43020FCDF510027D71E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42520FCDF500027D71E /* 5.jpg */; };
+		2CCDD43120FCDF510027D71E /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42620FCDF500027D71E /* 9.jpg */; };
+		2CCDD43220FCDF510027D71E /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42720FCDF510027D71E /* 10.jpg */; };
+		2CCDD43320FCDF510027D71E /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42820FCDF510027D71E /* 8.jpg */; };
+		2CCDD43420FCDF510027D71E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42920FCDF510027D71E /* 3.jpg */; };
+		2CCDD43520FCDF510027D71E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCDD42A20FCDF510027D71E /* 1.jpg */; };
 		2FE869DD055E2D10FD6F4438 /* Pods_TinderUISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C799B17347977E38595138C6 /* Pods_TinderUISample.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +35,17 @@
 		2CA228CF20FB3D3F00727431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CA228D220FB3D3F00727431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA228D420FB3D3F00727431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCDD42020FCDF500027D71E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		2CCDD42120FCDF500027D71E /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		2CCDD42220FCDF500027D71E /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		2CCDD42320FCDF500027D71E /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		2CCDD42420FCDF500027D71E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		2CCDD42520FCDF500027D71E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		2CCDD42620FCDF500027D71E /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		2CCDD42720FCDF510027D71E /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		2CCDD42820FCDF510027D71E /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		2CCDD42920FCDF510027D71E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		2CCDD42A20FCDF510027D71E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		8450DF74B050CBCC7240D4E2 /* Pods-TinderUISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderUISample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderUISample/Pods-TinderUISample.debug.xcconfig"; sourceTree = "<group>"; };
 		C799B17347977E38595138C6 /* Pods_TinderUISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderUISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +83,17 @@
 		2CA228C720FB3D3E00727431 /* TinderUISample */ = {
 			isa = PBXGroup;
 			children = (
+				2CCDD42A20FCDF510027D71E /* 1.jpg */,
+				2CCDD42020FCDF500027D71E /* 2.jpg */,
+				2CCDD42920FCDF510027D71E /* 3.jpg */,
+				2CCDD42420FCDF500027D71E /* 4.jpg */,
+				2CCDD42520FCDF500027D71E /* 5.jpg */,
+				2CCDD42320FCDF500027D71E /* 6.jpg */,
+				2CCDD42220FCDF500027D71E /* 7.jpg */,
+				2CCDD42820FCDF510027D71E /* 8.jpg */,
+				2CCDD42620FCDF500027D71E /* 9.jpg */,
+				2CCDD42720FCDF510027D71E /* 10.jpg */,
+				2CCDD42120FCDF500027D71E /* 11.jpg */,
 				2CA228C820FB3D3E00727431 /* AppDelegate.swift */,
 				2CA228CA20FB3D3E00727431 /* ViewController.swift */,
 				2CA228CC20FB3D3E00727431 /* Main.storyboard */,
@@ -149,9 +182,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCDD42C20FCDF510027D71E /* 11.jpg in Resources */,
+				2CCDD43320FCDF510027D71E /* 8.jpg in Resources */,
+				2CCDD42B20FCDF510027D71E /* 2.jpg in Resources */,
+				2CCDD43220FCDF510027D71E /* 10.jpg in Resources */,
 				2CA228D320FB3D3F00727431 /* LaunchScreen.storyboard in Resources */,
+				2CCDD43020FCDF510027D71E /* 5.jpg in Resources */,
+				2CCDD43520FCDF510027D71E /* 1.jpg in Resources */,
 				2CA228D020FB3D3F00727431 /* Assets.xcassets in Resources */,
+				2CCDD42E20FCDF510027D71E /* 6.jpg in Resources */,
+				2CCDD43420FCDF510027D71E /* 3.jpg in Resources */,
+				2CCDD42F20FCDF510027D71E /* 4.jpg in Resources */,
+				2CCDD42D20FCDF510027D71E /* 7.jpg in Resources */,
 				2CA228CE20FB3D3E00727431 /* Main.storyboard in Resources */,
+				2CCDD43120FCDF510027D71E /* 9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +410,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TinderUISample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freadteam.ryo.TinderUISample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -381,7 +428,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TinderUISample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freadteam.ryo.TinderUISample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
